@@ -1,0 +1,11 @@
+{
+  "name": "Portfolio Risk",
+  "description": "Analyze portfolio concentration and generate risk observations.",
+  "steps": [
+    "load_portfolio",
+    "calculate_concentration",
+    "classify_risk",
+    "generate_explanation"
+  ],
+  "execution": false
+}
