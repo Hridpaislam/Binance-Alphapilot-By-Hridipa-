@@ -1,0 +1,17 @@
+{
+  "name": "Market Scan",
+  "description": "Collect market data and prepare an explainable research snapshot.",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT"
+  ],
+  "steps": [
+    "collect_market_data",
+    "analyze_momentum",
+    "generate_research",
+    "calculate_risk",
+    "prepare_report"
+  ],
+  "execution": false
+}
