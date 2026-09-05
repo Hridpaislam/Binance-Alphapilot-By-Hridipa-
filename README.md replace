@@ -1,0 +1,67 @@
+# Binance AlphaPilot 🚀
+
+## AI Crypto Research & Risk Agent
+
+Binance AlphaPilot is an AI-agent workflow designed for the
+Binance Agent OS Mini Hackathon.
+
+It combines market intelligence, explainable research,
+portfolio risk analysis and human-approved actions.
+
+---
+
+## Features
+
+- 📊 Binance market data
+- 🤖 AI-agent workflow
+- 🔎 Explainable market research
+- 🛡️ Portfolio risk analysis
+- 📈 Strategy hypothesis generation
+- 👤 Human approval before consequential actions
+
+---
+
+## Architecture
+
+User
+↓
+Agent OS
+↓
+Market Data
+↓
+Research Agent
+↓
+Risk Engine
+↓
+Strategy Agent
+↓
+Human Approval
+↓
+Action
+
+---
+
+## Project Structure
+
+```text
+binance-alphapilot/
+
+├── agent/
+│   ├── main.py
+│   ├── research_agent.py
+│   └── strategy_agent.py
+│
+├── tools/
+│   ├── market_data.py
+│   ├── portfolio.py
+│   └── risk_engine.py
+│
+├── workflows/
+│   ├── market_scan.json
+│   └── portfolio_risk.json
+│
+├── docs/
+│   └── architecture.md
+│
+├── requirements.txt
+└── README.md
